@@ -12,57 +12,72 @@ body{
 
 #mind{
     position: absolute;
-    overflow-y: hidden; 
-    overflow-x: hidden;
-    margin-left: 25vw;
-    margin-top: 5vw;
-    width: 60vw;
-    height: 80vw;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 0vw;
+    margin-top: 0vw;
 }
     #pfp{
-        width: 50vw;
-        height: 50vw;
-        border-radius: 25vw; 
+        position: absolute;
+        width: 30vw;
+        height: 30vw;
+        margin-left: 35vw;
+        margin-top: 5vw;
+        border-radius: 15vw; 
     }
     #syiv{
+        position: absolute;
         width: 30vw;
-        margin-left: 10vw;
-    }
-    #namae{
-        position: relative;
-        font-size: 4vw;
-        font-weight:400 ;
-        background-repeat: no-repeat;
-        border-width: 0vw; 
-        border-radius: 1vw;
-        color: rgb(255, 218, 223);
-        text-decoration: none;
-        text-align: center;
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 35vw;
+        margin-top: 35vw;
     }
 
 #heart{
     position: absolute;
-    overflow-y: hidden; 
-    overflow-x: hidden;
-    margin-left: 25vw;
-    margin-top: 90vw;
-    width: 50vw;
-    height: 60vw;
+    margin-left: 0vw;
+    margin-top: 0vw;
 }
-    .linkTxt{
-        position: relative;
-        font-size: 4vw;
-        font-weight:400 ;
-        background-repeat: no-repeat;
-        border-width: 0vw; 
-        border-radius: 1vw;
-        color: rgb(199, 189, 255);
-        text-decoration: none;
-        text-align: center;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+    #right{
+        position: absolute;
+        margin-left: 0vw;
+        margin-top: 0vw;
     }
+        #rightValve{
+            position: absolute;
+            width: 35vw;
+            margin-left: 65vw;
+            margin-top: -1vw;
+        }
+        #xitter{
+            position: absolute;
+            width: 16vw;
+            margin-left: 69vw;
+            margin-top: 13vw;
+        }
+        #bsky{
+            position: absolute;
+            width: 18.5vw;
+            margin-left: 79.9vw;
+            margin-top: 49.5vw;
+        }
+
+
+
+
+
+
+.linkTxt{
+    position: relative;
+    display: none;
+    font-size: 4vw;
+    font-weight:400 ;
+    background-repeat: no-repeat;
+    border-width: 0vw; 
+    border-radius: 1vw;
+    color: rgb(199, 189, 255);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
