@@ -16,13 +16,17 @@ body{
     overflow-x: hidden;
     margin-left: 25vw;
     margin-top: 5vw;
-    width: 50vw;
-    height: 60vw;
+    width: 60vw;
+    height: 80vw;
 }
     #pfp{
         width: 50vw;
         height: 50vw;
         border-radius: 25vw; 
+    }
+    #syiv{
+        width: 30vw;
+        margin-left: 10vw;
     }
     #namae{
         position: relative;
@@ -44,7 +48,7 @@ body{
     overflow-y: hidden; 
     overflow-x: hidden;
     margin-left: 25vw;
-    margin-top: 70vw;
+    margin-top: 90vw;
     width: 50vw;
     height: 60vw;
 }
