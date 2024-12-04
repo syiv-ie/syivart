@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+#mind{
+    position: absolute;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    margin-left: 25vw;
+    margin-top: 5vw;
+    width: 50vw;
+    height: 60vw;
+}
+    #pfp{
+        width: 50vw;
+        height: 50vw;
+        border-radius: 25vw; 
+    }
+    #namae{
+        position: relative;
+        font-size: 4vw;
+        font-weight:400 ;
+        background-repeat: no-repeat;
+        border-width: 0vw; 
+        border-radius: 1vw;
+        color: rgb(255, 218, 223);
+        text-decoration: none;
+        text-align: center;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#heart{
+    position: absolute;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+    margin-left: 25vw;
+    margin-top: 70vw;
+    width: 50vw;
+    height: 60vw;
+}
+    .linkTxt{
+        position: relative;
+        font-size: 4vw;
+        font-weight:400 ;
+        background-repeat: no-repeat;
+        border-width: 0vw; 
+        border-radius: 1vw;
+        color: rgb(199, 189, 255);
+        text-decoration: none;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
