@@ -84,6 +84,17 @@ body{
             margin-top: 43.3vw;
         }
 
+#soul{
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: 90vw;
+}
+    .art{
+        width: 70vw;
+        margin-left: 15vw;
+        margin-top: 2vw;
+        border-radius: 2vw;
+    }
 
 
 
