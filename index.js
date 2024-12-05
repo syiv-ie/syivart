@@ -1,16 +1,28 @@
 //(made by Sylvie) 🏳️‍⚧️
 //disord @syiv 
 
-let artCount = 1;
+let artCount = 21;
 let soul = document.getElementById("soul");
 
 
 fillSoul();
 function fillSoul(){
-    let i = 0;
 
-    findArt();
+    for(let i = 1; i <= artCount; i++){
+        let art = document.createElement("img");
+        art.className = "art";
+        art.src = "images/art/" + i + ".png";
+        soul.prepend(art);
+    }
+
+    //findArt();
 }
+
+
+
+/*
+
+
 
 function findArt(){
     var img = new Image();
@@ -28,10 +40,6 @@ function findArt(){
         findArt();
     };
 }
-
-
-
-/*
 
     //console.log("hu")
     let body = document.getElementById("body");
