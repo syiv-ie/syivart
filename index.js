@@ -14,6 +14,8 @@ let fcs = [
     'SW-8434-4775-3500',
     'FEH: ',
     '6417991149',
+    'Hoyo: ',
+    '601649226',
 ]
 
 persona = window.location.search
