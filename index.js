@@ -1,7 +1,7 @@
 //(made by Sylvie) 🏳️‍⚧️
 //disord @syiv 
 
-let artCount = 21;
+let artCount = 29;
 let soul = document.getElementById("soul");
 let fcs = [
     'Steam: ',
